@@ -1,0 +1,68 @@
+.sidebar-container{
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(184, 181, 181, 0.8);
+}
+.sidebar-header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(184, 181, 181, 0.8);
+}
+.react-icon{
+    margin-left: 0.7rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(78, 76, 76);
+}
+.global-icon{
+    cursor: pointer;
+}
+.sidebar-search{
+    background-color: #d4d3d3;
+    padding: 0.7rem;
+    border-bottom: 1px solid rgba(184, 181, 181, 0.8);
+}
+.search-container{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0 0.3rem;
+}
+.search-input{
+    font-size: 1rem;
+    padding: 0.3rem 0.7rem ;
+    margin-left: 0.7rem;
+    outline-style: none;
+    border: none;
+    border-radius: 1rem;
+}
+.sidebar-rooms{
+    flex: 1;
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px;
+}
+.sidebar-rooms > h1{
+    font-size: 1.8rem;
+    margin-bottom: 1.1rem;
+}
+.sidebar-rooms > h1:hover{
+    cursor: pointer;
+}
+.room{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+}
+.room-info{
+    margin-left: 1.1rem;
+}
+.room:hover{
+    cursor: pointer;
+}
